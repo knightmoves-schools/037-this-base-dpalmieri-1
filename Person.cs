@@ -9,8 +9,7 @@ public class Person : Taxable{
       this.firstName = firstName;
       this.lastName = lastName;
    }
-   public string FullName() : base(LookupTaxId())
-   {
+   public string FullName(){
       return $"{firstName} {lastName}";
    }
 
@@ -26,4 +25,5 @@ public class Taxable{
    }
 
 }
+
 
